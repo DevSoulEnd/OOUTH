@@ -1,0 +1,65 @@
+.profile{
+    flex: 4;
+}
+
+.profile-wrapper{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-header{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-around;
+}
+
+.user{
+    color: white;
+    font-size: 8rem;
+}
+
+.name{
+    margin-top: 5.5rem;
+    color: white;
+    font-size: 1.9rem;
+}
+
+.cards-wrapper{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+
+.cardd{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    margin-left: 12rem;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardd p{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+}
+
+.cardd span{
+    font-size: 1.3rem;
+    letter-spacing: .2rem;
+    margin-left: 1rem;
+}
+
+.card2{
+    background: rgb(128, 0, 17);
+}
